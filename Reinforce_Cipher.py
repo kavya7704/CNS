@@ -1,7 +1,6 @@
 #Reinforce Cipher
 def Reinforce_Cipher(s):
     n = len(s)
-    print(n)
     arr = [0] * len(s)
     j = 0
     for i in range(0,n-1,2):
